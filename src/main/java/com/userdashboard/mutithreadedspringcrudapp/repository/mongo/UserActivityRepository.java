@@ -1,4 +1,4 @@
-package com.userdashboard.mutithreadedspringcrudapp.repository;
+package com.userdashboard.mutithreadedspringcrudapp.repository.mongo;
 
 import com.userdashboard.mutithreadedspringcrudapp.model.UserActivity;
 import org.springframework.data.mongodb.repository.MongoRepository;

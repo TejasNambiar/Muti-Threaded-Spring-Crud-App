@@ -1,4 +1,4 @@
-package com.userdashboard.mutithreadedspringcrudapp.repository;
+package com.userdashboard.mutithreadedspringcrudapp.repository.postgres;
 
 import com.userdashboard.mutithreadedspringcrudapp.model.UserProfile;
 import org.springframework.data.jpa.repository.JpaRepository;

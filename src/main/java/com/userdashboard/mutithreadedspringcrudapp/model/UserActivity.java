@@ -23,4 +23,8 @@ public class UserActivity {
     private String action;
     private LocalDateTime timestamp;
 
+    public UserActivity(Long userId, String action) {
+        this.userId = userId;
+        this.action = action;
+    }
 }
