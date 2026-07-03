@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.index.Index;
 public class MongoInitializer implements ApplicationListener<ApplicationReadyEvent> {
 
     private final MongoTemplate mongoTemplate;
-    @Value("${data.mongodb.database}")
+    @Value("${spring.app.mongodb.activity-collection}")
     String collectionName;
 
     public MongoInitializer(MongoTemplate mongoTemplate){

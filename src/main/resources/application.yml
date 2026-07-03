@@ -33,4 +33,9 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/user_activities_db
-      database: user_activities
+
+  # Custom properties group for your business logic
+  app:
+    mongodb:
+      # This dictates the COLLECTION (Table) name
+      activity-collection: user_activities
